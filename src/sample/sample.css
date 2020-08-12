@@ -1,0 +1,30 @@
+.mainPage{
+    -fx-pref-width: 215px;
+    -fx-pref-height: 289px;
+}
+.topView{
+    -fx-background-image: url("top.jpg") ;
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+    -fx-pref-width: 215px;
+    -fx-pref-height: 59px;
+}
+.datePicker{
+    -fx-pref-width: 190px;
+    -fx-pref-height: 22px;
+}
+
+.resourceLabel{
+    -fx-pref-width: 190px;
+    -fx-pref-height: 143px;
+    -fx-border-width: 1px;
+}
+
+.enterSearch{
+    -fx-border-radius: 32px;
+    -fx-pref-width: 190px;
+    -fx-pref-height: 26px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2a82e4;
+    -fx-font-size: 14px;
+}

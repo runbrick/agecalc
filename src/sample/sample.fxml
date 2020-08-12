@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane styleClass="mainPage" stylesheets="@sample.css" xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Pane styleClass="topView"/>
+    <DatePicker fx:id="birth" layoutX="12" layoutY="70" styleClass="datePicker"/>
+
+    <VBox fx:id="listBirth" layoutX="12" layoutY="99" styleClass="resourceLabel"/>
+    <Button layoutX="12" layoutY="251" onAction="#enterSearch" styleClass="enterSearch" text="确认"/>
+</Pane>
